@@ -4,6 +4,7 @@ import Showcase from './components/Showcase'
 import Advantages from './components/Advantages'
 import Categories from './components/Categories'
 import Products from './components/Products'
+import Promotional_Models from './components/Promotional_Models'
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Advantages />
       <Categories />
       <Products />
+      <Promotional_Models />
     </div>
   )
 }
