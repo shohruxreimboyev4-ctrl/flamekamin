@@ -1,7 +1,7 @@
 import React from "react";
 import { FaInstagram, FaWhatsapp, FaTelegramPlane } from "react-icons/fa";
 import VISA from "../assets/svg/VISA.svg";
-import MASTERCARD from "../assets/svg/mastercard.svg";
+import MASTERCARD from "../assets/svg/MASTERCARD.svg";
 import МИР from "../assets/svg/МИР.svg";
 
 const Footer = () => {
