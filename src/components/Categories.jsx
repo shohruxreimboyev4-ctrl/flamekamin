@@ -71,7 +71,6 @@ const Categories = () => {
           Категории
         </h2>
 
-        {/* Desktop версия */}
         <div className="hidden md:grid md:grid-cols-2 gap-6 lg:gap-8">
           <div className="bg-[#F5F1E8] rounded-2xl p-6 lg:p-8 flex flex-col justify-between min-h-[500px]">
             <div>
@@ -99,7 +98,6 @@ const Categories = () => {
           </div>
 
           <div className="flex flex-col gap-6 lg:gap-8">
-            {/* Малые карточки */}
             <div className="grid grid-cols-2 gap-6 lg:gap-8">
               {[categories[1], categories[4]].map((cat) => (
                 <div
@@ -185,7 +183,6 @@ const Categories = () => {
           </div>
         </div>
 
-        {/* Mobile версия */}
         <div className="grid grid-cols-2 gap-3 sm:gap-4 md:hidden">
           {categories.map((category) => (
             <div
