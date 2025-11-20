@@ -7,6 +7,7 @@ import Products from './components/Products'
 import Promotional_Models from './components/Promotional_Models'
 import Customer_Reviews from './components/Customer_Reviews'
 import About_Us from './components/About_Us'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <Promotional_Models />
       <Customer_Reviews />
       <About_Us />
+      <Footer />
     </div>
   )
 }
