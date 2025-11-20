@@ -6,6 +6,7 @@ import Categories from './components/Categories'
 import Products from './components/Products'
 import Promotional_Models from './components/Promotional_Models'
 import Customer_Reviews from './components/Customer_Reviews'
+import About_Us from './components/About_Us'
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Products />
       <Promotional_Models />
       <Customer_Reviews />
+      <About_Us />
     </div>
   )
 }
